@@ -1,0 +1,47 @@
+.burger-menu {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .explore-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .categories {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .category-btn {
+    background: #f3f3f3;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  .category-btn.active {
+    background: #007bff;
+    color: white;
+  }
+  
+  .burger-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .burger-card {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  .burger-image {
+    width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+  }
